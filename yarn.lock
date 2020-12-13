@@ -777,7 +777,7 @@ color-name@^1.0.0:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-color-parse@^1.3.8:
+color-parse@1.3.8:
   version "1.3.8"
   resolved "https://registry.yarnpkg.com/color-parse/-/color-parse-1.3.8.tgz#eaf54cd385cb34c0681f18c218aca38478082fa3"
   integrity sha512-1Y79qFv0n1xair3lNMTNeoFvmc3nirMVBij24zbs1f13+7fPpQClMg5b4AuKXLt3szj7BRlHMCXHplkce6XlmA==
@@ -1672,9 +1672,9 @@ inherits@2.0.3:
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
 ini@^1.3.4, ini@^1.3.5:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
+  integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
 interpret@1.2.0:
   version "1.2.0"
@@ -2612,12 +2612,12 @@ react-figma-webpack-config@latest:
     webpack "^4.41.2"
     webpack-merge "^4.2.2"
 
-react-figma@^0.1.13:
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/react-figma/-/react-figma-0.1.13.tgz#061774e1ae0be17c4c8af9967bf5634e8266f341"
-  integrity sha512-Rk2vUaZzlIOIxPdMHDGFaEM9vXLQfTgpKwnEnwZppULbMCSdHELecwwKEsrKt+pSmahz2Bbowpwtztw17a7pgQ==
+react-figma@latest:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/react-figma/-/react-figma-0.2.0.tgz#4e1534b580267251585871e3f0459c93c7cd8a13"
+  integrity sha512-vFVf9ORvS6CM6UJmTnhWvRuA26N0BsxU/SiJB6UxuY6Sd7KAmcDhdUxt29FWzySVmSIL+My2EVMjI2APP3BviQ==
   dependencies:
-    color-parse "^1.3.8"
+    color-parse "1.3.8"
     figma-jsonrpc "^0.4.0"
     nanoid "^2.0.3"
     react-devtools-core "^4.7.0"
